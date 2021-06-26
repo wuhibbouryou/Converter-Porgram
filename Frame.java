@@ -744,8 +744,8 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JTextField weightOutput;
     private javax.swing.JComboBox<String> weightSelect1;
     private javax.swing.JComboBox<String> weightSelect2;
-    // End of variables declaration//GEN-END:variables
-}
+    
+
 
 //This function initializes all the JFrames, buttons, text fields, etc
     @SuppressWarnings("unchecked")
@@ -806,7 +806,7 @@ public class Frame extends javax.swing.JFrame {
         tempSelect1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Fahrenheit", "Celsius", "Kelvin" }));
         tempSelect1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tempSelect1ActionPerformed(evt);
+                
             }
         });
 
@@ -828,7 +828,7 @@ public class Frame extends javax.swing.JFrame {
         tempSelect2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Fahrenheit", "Celsius", "Kelvin" }));
         tempSelect2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tempSelect2ActionPerformed(evt);
+                
             }
         });
 
@@ -1079,7 +1079,7 @@ public class Frame extends javax.swing.JFrame {
         weightSelect2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Metric ton", "Kilogram", "Gram", "Milligram", "Microgram", "Imperial Ton", "US Ton", "Pound", "Ounce" }));
         weightSelect2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                weightSelect2ActionPerformed(evt);
+                
             }
         });
 
@@ -1089,7 +1089,7 @@ public class Frame extends javax.swing.JFrame {
         weightSelect1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Metric ton", "Kilogram", "Gram", "Milligram", "Microgram", "Imperial Ton", "US Ton", "Pound", "Ounce" }));
         weightSelect1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                weightSelect1ActionPerformed(evt);
+                
             }
         });
 
@@ -1186,3 +1186,4 @@ public class Frame extends javax.swing.JFrame {
 
         pack();
     }
+}
